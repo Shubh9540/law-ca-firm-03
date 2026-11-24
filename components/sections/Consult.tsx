@@ -79,7 +79,7 @@ export const Consult = ({ data }: ConsultProps) => {
                     <span className="text-xs font-bold text-[#221816]">Juristra Law Associates</span>
                   </div>
                   <div className="text-[10px] text-[#C5A059] font-medium pl-3.5">
-                    Connaught Place, New Delhi
+                    {data.mapAddress || 'Manhattan, New York, NY, USA'}
                   </div>
                 </div>
               </div>
