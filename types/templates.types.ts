@@ -230,6 +230,11 @@ export interface LawCaFirmSections {
   Consult: { variants: { LawCaFirmConsult2: ConsultData } };
 }
 
+export interface PageComponentItem {
+  key: string;
+  component: string;
+}
+
 export interface LawCaFirmTemplateData {
   common: {
     theme: SiteTheme;
@@ -242,7 +247,7 @@ export interface LawCaFirmTemplateData {
   };
   pages: {
     home: {
-      components: string[];
+      components: PageComponentItem[];
     };
   };
 }

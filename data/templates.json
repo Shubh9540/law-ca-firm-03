@@ -391,14 +391,38 @@
   "pages": {
     "home": {
       "components": [
-        "Hero",
-        "AboutUs",
-        "Services",
-        "Team",
-        "Testimonials",
-        "Faq",
-        "ContactInfo",
-        "Consult"
+        {
+          "key": "Hero",
+          "component": "Hero"
+        },
+        {
+          "key": "AboutUs",
+          "component": "AboutUs"
+        },
+        {
+          "key": "Services",
+          "component": "Services"
+        },
+        {
+          "key": "Team",
+          "component": "Team"
+        },
+        {
+          "key": "Testimonials",
+          "component": "Testimonials"
+        },
+        {
+          "key": "Faq",
+          "component": "Faq"
+        },
+        {
+          "key": "ContactInfo",
+          "component": "ContactInfo"
+        },
+        {
+          "key": "Consult",
+          "component": "Consult"
+        }
       ]
     }
   }
