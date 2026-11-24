@@ -54,7 +54,7 @@ export const AboutUs = ({ data }: AboutUsProps) => {
   if (!data) return null;
 
   return (
-    <section ref={sectionRef} id="about" className="bg-[var(--color-bg-main)] py-12 lg:py-20">
+    <section ref={sectionRef} id="about" className="bg-[var(--color-bg-main)] py-8 lg:py-14">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-14 xl:gap-16">
           

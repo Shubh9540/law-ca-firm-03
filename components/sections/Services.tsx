@@ -6,11 +6,11 @@ export const Services = ({ data }: ServicesProps) => {
   if (!data) return null;
 
   return (
-    <section id="services" className="bg-[var(--color-bg-main)] py-10 lg:py-16">
+    <section id="services" className="bg-[var(--color-bg-main)] pt-8 pb-6 lg:pt-12 lg:pb-8">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="mb-8 lg:mb-10">
+        <div className="mb-6 lg:mb-8">
           {/* Eyebrow: — OUR SERVICES — */}
           <div className="flex items-center gap-3">
             <span className="h-[1.5px] w-8 bg-[var(--color-accent)]" />

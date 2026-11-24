@@ -63,14 +63,14 @@ export const Testimonials = ({ data }: TestimonialsProps) => {
   return (
     <section
       id="testimonials"
-      className="bg-[var(--color-bg-main)] py-12 lg:py-20 overflow-hidden"
+      className="bg-[var(--color-bg-main)] py-8 lg:py-14 overflow-hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="mb-10 lg:mb-14 text-center max-w-3xl mx-auto">
+        <div className="mb-8 lg:mb-10 text-center max-w-3xl mx-auto">
           {/* Centered Scales Icon */}
           <div className="flex justify-center mb-2.5">
             <FaBalanceScale className="text-[var(--color-accent)] text-2xl sm:text-3xl" />

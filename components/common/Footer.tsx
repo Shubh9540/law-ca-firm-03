@@ -29,7 +29,7 @@ export const Footer = ({ data }: FooterProps) => {
 
   return (
     <footer className="border-t border-[#E8DFD5] bg-[#FFFFFF] text-[#221816]">
-      <div className="mx-auto max-w-[1280px] px-4 pt-12 pb-8 sm:px-6 lg:px-8 lg:pt-16 lg:pb-10">
+      <div className="mx-auto max-w-[1280px] px-4 pt-10 pb-8 sm:px-6 lg:px-8 lg:pt-12 lg:pb-8">
         {/* Main 4 Columns with vertical divider lines on desktop */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-12 lg:gap-0 items-start">
           {/* Column 1: Logo & Tagline (Enlarged) */}

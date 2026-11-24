@@ -6,11 +6,11 @@ export const Team = ({ data }: TeamProps) => {
   if (!data) return null;
 
   return (
-    <section id="team" className="bg-[var(--color-bg-main)] py-12 lg:py-20">
+    <section id="team" className="bg-[var(--color-bg-main)] pt-6 pb-8 lg:pt-8 lg:pb-14">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         
         {/* Section Header: Centered Scales Icon, Eyebrow & Headline */}
-        <div className="mb-10 lg:mb-14 text-center max-w-3xl mx-auto">
+        <div className="mb-8 lg:mb-10 text-center max-w-3xl mx-auto">
           {/* Centered Scales Icon */}
           <div className="flex justify-center mb-2.5">
             <FaBalanceScale className="text-[var(--color-accent)] text-2xl sm:text-3xl" />

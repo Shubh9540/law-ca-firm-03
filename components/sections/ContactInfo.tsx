@@ -8,10 +8,10 @@ export const ContactInfo = ({ data }: ContactInfoProps) => {
 
   return (
     <section id="contact" className="scroll-mt-20 bg-[var(--color-bg-main)] overflow-hidden w-full">
-      <div className="w-full grid grid-cols-1 lg:grid-cols-12 items-stretch min-h-[480px] lg:min-h-[520px]">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-12 items-stretch min-h-[420px] lg:min-h-[460px]">
         
         {/* Left Column (Details) - Aligned with container */}
-        <div className="lg:col-span-5 flex flex-col justify-center py-10 lg:py-16 px-4 sm:px-6 lg:pl-[max(1.5rem,calc((100vw-1280px)/2+2rem))] lg:pr-8 xl:pr-10">
+        <div className="lg:col-span-5 flex flex-col justify-center py-8 lg:py-12 px-4 sm:px-6 lg:pl-[max(1.5rem,calc((100vw-1280px)/2+2rem))] lg:pr-8 xl:pr-10">
           
           {/* Eyebrow: — GET IN TOUCH — */}
           <div className="flex items-center gap-3">
