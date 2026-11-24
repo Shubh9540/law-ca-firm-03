@@ -1,0 +1,405 @@
+{
+  "common": {
+    "theme": {
+      "fontFamily": "var(--font-sans), system-ui, sans-serif"
+    },
+    "Footer": {
+      "logo": "/logo.webp",
+      "logoAlt": "Juristra Law Firm",
+      "description": "Trusted legal solutions with integrity, expertise, and a client-first approach.",
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "footer-home",
+          "label": "Home",
+          "url": "/#hero"
+        },
+        {
+          "id": "footer-about",
+          "label": "About Us",
+          "url": "/#about"
+        },
+        {
+          "id": "footer-services",
+          "label": "Services",
+          "url": "/#services"
+        },
+        {
+          "id": "footer-team",
+          "label": "Our Team",
+          "url": "/#team"
+        }
+      ],
+      "usefulLinksTitle": "Useful Links",
+      "usefulLinks": [
+        {
+          "id": "footer-testimonials",
+          "label": "Testimonials",
+          "url": "/#testimonials"
+        },
+        {
+          "id": "footer-faqs",
+          "label": "FAQs",
+          "url": "/#faqs"
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact Us",
+          "url": "/#contact"
+        }
+      ],
+      "contactTitle": "Contact Information",
+      "address": "123 Main St, New York, NY, USA",
+      "phone": "+1 00000 00000",
+      "email": "info@xyz.com",
+      "copyrightText": "© 2026 Juristra Law Firm. All Rights Reserved. Powered By Lestow",
+      "socialLinks": []
+    }
+  },
+  "categories": {
+    "LawCaFirm": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "LawCaFirmHeader2": {
+              "logo": "/logo.webp",
+              "logoAlt": "Juristra Law & CA Firm",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/#hero"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/#about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "url": "/#services"
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Our Team",
+                  "url": "/#team"
+                },
+                {
+                  "id": "nav-testimonials",
+                  "label": "Testimonials",
+                  "url": "/#testimonials"
+                },
+                {
+                  "id": "nav-faqs",
+                  "label": "Faqs",
+                  "url": "/#faqs"
+                },
+                {
+                  "id": "nav-contact",
+                  "label": "Contact Us",
+                  "url": "/#contact"
+                }
+              ],
+              "contactButton": {
+                "id": "header-consult",
+                "label": "Consult Now",
+                "url": "/#consult"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "LawCaFirmHero2": {
+              "eyebrow": "JURISTRA LAW FIRM",
+              "titleStart": "Strategic Legal Solutions for Your",
+              "titleLine1": "Strategic Legal",
+              "titleLine2": "Solutions for Your",
+              "titleAccent": "Rights & Business",
+              "description": "Trusted legal counsel with a commitment to justice, integrity, and lasting results.",
+              "backgroundImage": "/hero/hero-banner.webp"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "LawCaFirmAboutUs2": {
+              "eyebrow": "ABOUT JURISTRA",
+              "titleStart": "A Trusted Legal Partner",
+              "titleFor": "for",
+              "titleAccent": "Individuals & Businesses",
+              "description": "JURISTRA is a full-service law firm dedicated to delivering practical legal solutions, strategic advice, and strong representation with integrity, confidentiality, and a client-first approach.",
+              "image": "/about/lady-justice-clean.webp",
+              "imageAlt": "Lady Justice bronze statue representing integrity and balanced counsel",
+              "experienceBadge": {
+                "value": "15+",
+                "label": "Years of Legal Excellence"
+              },
+              "stats": [
+                {
+                  "id": "stat-satisfaction",
+                  "value": "95%",
+                  "percent": 95,
+                  "title": "Client Satisfaction",
+                  "description": "A proven track record of successful outcomes."
+                },
+                {
+                  "id": "stat-success",
+                  "value": "98%",
+                  "percent": 98,
+                  "title": "Case Success Rate",
+                  "description": "Focused, strategic and result-driven legal representation."
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "LawCaFirmServices2": {
+              "eyebrow": "OUR SERVICES",
+              "titleStart": "Our Areas of",
+              "titleAccent": "Legal Expertise",
+              "subtitle": "We provide comprehensive legal solutions across a wide range of practice areas, helping individuals and businesses with trusted and result-driven counsel.",
+              "services": [
+                {
+                  "id": "service-01",
+                  "number": "01",
+                  "title": "Civil & Litigation",
+                  "description": "Strategic representation in civil disputes, suits, and litigation to protect your rights and interests.",
+                  "image": "/services/service-01.webp",
+                  "imageAlt": "Civil & Litigation courtroom representation",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-02",
+                  "number": "02",
+                  "title": "Family Law",
+                  "description": "Compassionate and practical legal support for divorce, child custody, maintenance, and related family matters.",
+                  "image": "/services/service-02.webp",
+                  "imageAlt": "Family Law and matrimonial legal support",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-03",
+                  "number": "03",
+                  "title": "Property & Real Estate",
+                  "description": "Legal guidance for property transactions, title verification, leases, and real estate dispute resolution.",
+                  "image": "/services/service-03.webp",
+                  "imageAlt": "Property and real estate legal advisory",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-04",
+                  "number": "04",
+                  "title": "Wills, Trusts & Estate Planning",
+                  "description": "Expert advice on wills, trusts, and succession planning to secure your family's future.",
+                  "image": "/services/service-04.webp",
+                  "imageAlt": "Wills, trusts and succession planning advisory",
+                  "url": "/#contact"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "LawCaFirmTeam2": {
+              "eyebrow": "OUR TEAM",
+              "titleStart": "Meet Our",
+              "titleAccent": "Legal Experts",
+              "subtitle": "A team of experienced and dedicated legal professionals committed to delivering strategic, client-focused solutions.",
+              "members": [
+                {
+                  "id": "team-01",
+                  "name": "Adv. Arjun Mehra",
+                  "role": "FOUNDING PARTNER",
+                  "image": "/team/arjun-mehra.webp",
+                  "imageAlt": "Advocate Arjun Mehra, Founding Partner"
+                },
+                {
+                  "id": "team-02",
+                  "name": "Adv. Riya Sharma",
+                  "role": "SENIOR ASSOCIATE",
+                  "image": "/team/riya-sharma.webp",
+                  "imageAlt": "Advocate Riya Sharma, Senior Associate"
+                },
+                {
+                  "id": "team-03",
+                  "name": "Adv. Karan Malhotra",
+                  "role": "LEGAL COUNSEL",
+                  "image": "/team/karan-malhotra.webp",
+                  "imageAlt": "Advocate Karan Malhotra, Legal Counsel"
+                },
+                {
+                  "id": "team-04",
+                  "name": "Adv. Neha Kapoor",
+                  "role": "ASSOCIATE PARTNER",
+                  "image": "/team/neha-kapoor.webp",
+                  "imageAlt": "Advocate Neha Kapoor, Associate Partner"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "LawCaFirmTestimonials2": {
+              "eyebrow": "TESTIMONIALS",
+              "titleStart": "What Our",
+              "titleAccent": "Clients Say",
+              "subtitle": "Trusted by individuals and businesses for our commitment, professionalism, and results.",
+              "items": [
+                {
+                  "id": "test-01",
+                  "name": "Rahul Verma",
+                  "role": "BUSINESS OWNER",
+                  "quote": "The team at Juristra handled my case with utmost professionalism and care. Their expertise and clear communication gave me complete confidence throughout the process.",
+                  "rating": 5,
+                  "image": "/team/arjun-mehra.webp",
+                  "imageAlt": "Rahul Verma, Business Owner"
+                },
+                {
+                  "id": "test-02",
+                  "name": "Priya Sharma",
+                  "role": "INDIVIDUAL CLIENT",
+                  "quote": "I truly appreciate the personalized attention and practical legal advice I received. Juristra made a complex situation much easier to navigate and delivered a great outcome.",
+                  "rating": 5,
+                  "image": "/team/riya-sharma.webp",
+                  "imageAlt": "Priya Sharma, Individual Client"
+                },
+                {
+                  "id": "test-03",
+                  "name": "Amit Kapoor",
+                  "role": "REAL ESTATE INVESTOR",
+                  "quote": "A reliable and results-oriented law firm. They are responsive, knowledgeable, and genuinely care about their clients. Highly recommended!",
+                  "rating": 5,
+                  "image": "/team/karan-malhotra.webp",
+                  "imageAlt": "Amit Kapoor, Real Estate Investor"
+                },
+                {
+                  "id": "test-04",
+                  "name": "Sneha Patel",
+                  "role": "CORPORATE COUNSEL",
+                  "quote": "Their swift response, courtroom diligence, and thorough regulatory knowledge made all the difference in our high-stakes compliance proceedings.",
+                  "rating": 5,
+                  "image": "/team/neha-kapoor.webp",
+                  "imageAlt": "Sneha Patel, Corporate Counsel"
+                },
+                {
+                  "id": "test-05",
+                  "name": "Rohit Singhania",
+                  "role": "MANAGING DIRECTOR",
+                  "quote": "Exceptional counsel on our commercial restructuring and contract negotiations. Their attention to legal risk and strategic vision is truly world-class.",
+                  "rating": 5,
+                  "image": "/team/arjun-mehra.webp",
+                  "imageAlt": "Rohit Singhania, Managing Director"
+                }
+              ]
+            }
+          }
+        },
+        "ContactInfo": {
+          "variants": {
+            "LawCaFirmContactInfo2": {
+              "eyebrow": "GET IN TOUCH",
+              "title": "Contact Us",
+              "titleStart": "Contact",
+              "titleAccent": "Us",
+              "subtitle": "Have a legal query or need professional advice? Get in touch with our team — we're here to help.",
+              "email": "contact@juristra.com",
+              "phone": "+91 98765 43210",
+              "office": "A-204, Legal Heights, Ring Road, New Delhi – 110034",
+              "image": "/contact/executive-office.webp",
+              "imageAlt": "Executive law office chamber with Lady Justice statue and leather armchair"
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "LawCaFirmFaq2": {
+              "eyebrow": "FAQS",
+              "titleStart": "Frequently Asked",
+              "titleAccent": "Questions",
+              "subtitle": "Find clear answers to commonly asked questions regarding our legal retention, fee structures, and CA audit consultation process.",
+              "image": "/faq/scales-gavel.webp",
+              "imageAlt": "Brass scales of justice and gavel on antique law books",
+              "items": [
+                {
+                  "id": "faq-01",
+                  "question": "How do I schedule an initial consultation?",
+                  "answer": "You can schedule a consultation directly by submitting the form below or contacting our chambers via phone or email. Our practice manager will review your matter and schedule a conference with the appropriate senior advocate or CA within 24 hours."
+                },
+                {
+                  "id": "faq-02",
+                  "question": "What areas of law and financial advisory do you specialize in?",
+                  "answer": "We specialize in Civil & Commercial Litigation, Corporate Governance & M&A, Direct & Indirect Taxation (GST), Statutory Audits, Real Estate & RERA matters, and Family Office Estate Trusts."
+                },
+                {
+                  "id": "faq-03",
+                  "question": "How are legal and chartered accounting fees structured?",
+                  "answer": "We maintain transparent fee schedules based on retainer arrangements, stage-wise litigation milestones, or fixed project fees for audits and corporate registrations, agreed in writing upfront."
+                },
+                {
+                  "id": "faq-04",
+                  "question": "Will all information shared with your firm remain confidential?",
+                  "answer": "Strict confidentiality is our foremost duty. All communications and documentation are protected by advocate-client privilege under the Indian Evidence Act as well as professional secrecy codes of ICAI."
+                },
+                {
+                  "id": "faq-05",
+                  "question": "Can you represent clients in online / virtual tribunal hearings?",
+                  "answer": "Yes. Our advocates regularly appear in virtual proceedings before the Supreme Court, High Courts across India, NCLT, ITAT, and Consumer Forums."
+                },
+                {
+                  "id": "faq-06",
+                  "question": "Do you offer integrated legal and tax support for new startups?",
+                  "answer": "Absolutely. We provide end-to-end launch packages including entity incorporation, shareholder agreements, trademark filings, GST setup, and continuous statutory compliance."
+                }
+              ]
+            }
+          }
+        },
+        "Consult": {
+          "variants": {
+            "LawCaFirmConsult2": {
+              "eyebrow": "CONSULT NOW",
+              "titleStart": "Begin the",
+              "titleAccent": "Conversation",
+              "subtitle": "Get in touch for a confidential consultation to discuss your legal needs with complete discretion.",
+              "formTitle": "Reach out for a confidential consultation to discuss your legal needs with complete discretion.",
+              "servicesPlaceholder": "Select a Service",
+              "serviceOptions": [
+                "Civil & Litigation",
+                "Family Law",
+                "Property & Real Estate",
+                "Wills, Trusts & Estate Planning",
+                "Corporate & Commercial Law",
+                "Taxation & Financial Audit"
+              ],
+              "submitText": "Submit Inquiry",
+              "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9964177514757!2d77.22271847529!3d28.63001817566671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3714b13867%3A0x6b4472d42b4bfa29!2sBarakhamba%20Rd%2C%20Connaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+              "mapAddress": "Barakhamba Road, Connaught Place, New Delhi"
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        "Hero",
+        "AboutUs",
+        "Services",
+        "Team",
+        "Testimonials",
+        "Faq",
+        "ContactInfo",
+        "Consult"
+      ]
+    }
+  }
+}
